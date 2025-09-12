@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2025-04-02T14:22:58+02:00
-lastmod: 2025-09-12T15:10:56+02:00
+lastmod: 2025-09-12T15:20:25+02:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-04-02T14:22:58+02:00
-    updated_at: 2025-09-12T15:10:56+02:00
+    updated_at: 2025-09-12T15:20:25+02:00
     published_at: 2025-04-02T14:22:58+02:00
 search:
   id: "e4ed8576-3688-41d4-9cce-e5e3213e1647"
@@ -30,7 +30,7 @@ search:
   summary: >-
     
   body: >-
-    <p>PRESENTATION SIMPLE, message court   <br> Qui sommes nous ? Description simple de la SCOP, notre vision, appartenance à l'ESS <br>Valeur n.1</p>  <p>Valeur n.2</p>  <p>Valeur n.3</p>  <p> Que faisons nous ? (accompagnement des territoires) </p>  <p> Ils nous font confiance ! </p>  <p> RTE </p>
+    <p>PRESENTATION SIMPLE, message court   <br> Qui sommes nous ? Description simple de la SCOP, notre vision, appartenance à l'ESS <br>Valeur n.1 <br>blablabla</p>  <p>Valeur n.2 <br>blablabla</p>  <p>Valeur n.3 <br>blablabla</p>  <p> Que faisons nous ? (accompagnement des territoires) </p>  <p> RTE </p>  <p> Ils nous font confiance ! </p>  <p> Contactez-nous !  <br>LINKEDIN <br>Suivez-nous sur Linkedin ! <br>https://fr.linkedin.com/company/duvertdanslesrouages</p>  <p> Téléchargez la dernière Lettre d'info !  <br>Lettre d'info nX</p>
 
 breadcrumbs:
   - title: >-
@@ -73,7 +73,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 9
+  seconds: 16
   text: >-
     moins d'une minute
 contents:
@@ -123,7 +123,7 @@ contents:
             Valeur n.1
 
           description: >-
-            
+            <p>blablabla</p>
 
 
           alt: >-
@@ -136,7 +136,7 @@ contents:
             Valeur n.2
 
           description: >-
-            
+            <p>blablabla</p>
 
 
           alt: >-
@@ -149,7 +149,7 @@ contents:
             Valeur n.3
 
           description: >-
-            
+            <p>blablabla</p>
 
 
           alt: >-
@@ -189,6 +189,34 @@ contents:
 
 
   - kind: block
+    template: pages
+    title: >-
+      RTE
+    slug: >-
+      rte
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          RTE
+        heading: 3
+    data:
+      options:
+        image: true
+        categories: false
+        main_summary: true
+        summary: true
+
+      layout: large
+      pages:
+
+      quantity: 0
+
+
+  - kind: block
     template: organizations
     title: >-
       Ils nous font confiance !
@@ -220,11 +248,11 @@ contents:
 
 
   - kind: block
-    template: pages
+    template: links
     title: >-
-      RTE
+      Contactez-nous !
     slug: >-
-      rte
+      contactez-nous
     ranks:
       base: 3
       self: 3
@@ -232,36 +260,72 @@ contents:
       active: true
       title: 
         value: >-
-          RTE
+          Contactez-nous !
         heading: 3
     data:
-      options:
-        image: true
-        categories: false
-        main_summary: true
-        summary: true
+      description: >-
+        
 
-      layout: large
-      pages:
+      links:
+        - title: >-
+            LINKEDIN
 
-      quantity: 0
+          description: >-
+            <p>Suivez-nous sur Linkedin !</p>
+
+          url: >-
+            https://fr.linkedin.com/company/duvertdanslesrouages
+
+          external: true
+
 
 
   - kind: block
-    template: links
+    template: files
+    title: >-
+      Téléchargez la dernière Lettre d'info !
+    slug: >-
+      telechargez-la-derniere-lettre-d-info
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Téléchargez la dernière Lettre d'info !
+        heading: 3
+    data:
+      description: >-
+        
+
+      files:
+
+
+  - kind: block
+    template: contact
     title: >-
       
     slug: >-
       
     ranks:
       base: 3
+      children: 3
     top:
       active: false
     data:
       description: >-
         
 
-      links:
+      name: >-
+        
+
+      information: >-
+        
+
+      contact_details:
+
+      timetable:
 
 
 
