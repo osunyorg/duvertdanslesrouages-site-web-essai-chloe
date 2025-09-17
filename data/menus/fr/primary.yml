@@ -1,34 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Que faisons-nous (territoires)
-  target: "/missions/"
-  kind: page
-  new_tab: false
-  children:
-  - title: Co-construire avec les territoires, stratégie
-    target: "/missions/co-construire-avec-les-territoires-strategie/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/missions/co-construire-avec-les-territoires-strategie"
-    file: content/fr/pages/missions/co-construire-avec-les-territoires-strategie/_index.html
-  - title: Analyser, étudier, décrypter, évaluer
-    target: "/missions/analyser-etudier-decrypter-evaluer/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/missions/analyser-etudier-decrypter-evaluer"
-    file: content/fr/pages/missions/analyser-etudier-decrypter-evaluer/_index.html
-  - title: Accompagner, outiller
-    target: "/missions/accompagner-outiller/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/missions/accompagner-outiller"
-    file: content/fr/pages/missions/accompagner-outiller/_index.html
-  path: "/projects"
-  file: content/fr/projects/_index.html
 - title: Équipe
   target: "/equipe/"
   kind: page
