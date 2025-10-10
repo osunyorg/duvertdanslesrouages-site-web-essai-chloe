@@ -1,4 +1,46 @@
 ---
 title: Menu principal
-items: []
+items:
+- title: Actualités
+  target: "/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
+- title: Que faisons-nous (territoires)
+  target: "/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Co-construire avec les territoires, stratégie
+    target: "/que-faisons-nous-territoires/co-construire-avec-les-territoires-strategie/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/que-faisons-nous-territoires/co-construire-avec-les-territoires-strategie"
+    file: content/fr/pages/que-faisons-nous-territoires/co-construire-avec-les-territoires-strategie/_index.html
+  - title: Analyser, étudier, décrypter, évaluer
+    target: "/que-faisons-nous-territoires/analyser-etudier-decrypter-evaluer/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/que-faisons-nous-territoires/analyser-etudier-decrypter-evaluer"
+    file: content/fr/pages/que-faisons-nous-territoires/analyser-etudier-decrypter-evaluer/_index.html
+  - title: Accompagner, outiller
+    target: "/que-faisons-nous-territoires/accompagner-outiller/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/que-faisons-nous-territoires/accompagner-outiller"
+    file: content/fr/pages/que-faisons-nous-territoires/accompagner-outiller/_index.html
+  path: "/projects"
+  file: content/fr/projects/_index.html
+- title: Équipe
+  target: "/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
 
